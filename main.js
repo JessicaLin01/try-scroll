@@ -1,7 +1,7 @@
 window.onload = function() {
     /*测试数据*/
     var insert = '';
-    for (var i = 0; i < 80; i++) {
+    for (var i = 0; i < 200; i++) {
       insert += '<div style = "width:100%; text-align:center;">測試 ' + i + '</div>';
     }
     document.getElementById("moveArea").innerHTML = insert;
