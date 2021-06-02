@@ -184,7 +184,7 @@ appTouch.prototype = {
           }
           target.style.top = move + "px";
           scroller.style.top = -move / st + 'px';
-          setTimeout(inertiaMove, 10);//0.01妙   0.04厘米/0.01妙   9.8米/1妙    分段移动
+          setTimeout(inertiaMove, 100);//0.01妙   0.04厘米/0.01妙   9.8米/1妙    分段移动
         }
         inertiaMove();
       })(v, nowTime, contentY);
